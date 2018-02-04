@@ -86,6 +86,14 @@
   position: absolute;
   left: 50px;
 }
+.main-about-map{
+  width: 650px;
+  height: 400px;
+  position: absolute;
+  top: -30px;
+  right:600px;
+  border:none;
+}
 .main-about-title,.main-about-text{
     width: 550px;
     position: absolute;

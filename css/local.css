@@ -1,101 +1,200 @@
-#img{
-  background-image: url("../img/nf.jpg");
-  opacity: 0.6;
-}
-#img1{
-    background-image: url("../img/caosentado.JPG");
+@media (min-width:320px) {
+  #img{
+    background-image: url("../img/nf.jpg");
     opacity: 0.6;
-}
-#img2{
-    background-image: url("../img/country.jpg");
-    opacity: 0.6;
-}
-#img3{
-    background-image: url("../img/teleferico.jpg");
-    opacity: 0.6;
-}
-#img4{
-    background-image: url("../img/caledonia.jpg");
-    opacity: 0.6;
-}
-#img5{
-    background-image: url("../img/queijaria-escola.jpg");
-    opacity: 0.6;
-}
+  }
+  #img1{
+      background-image: url("../img/caopequeno.jpg");
+      opacity: 0.6;
+  }
+  #img2{
+      background-image: url("../img/country.jpg");
+      opacity: 0.6;
+  }
+  #img3{
+      background-image: url("../img/teleferico.jpg");
+      opacity: 0.6;
+  }
+  #img4{
+      background-image: url("../img/caledonia.jpg");
+      opacity: 0.6;
+  }
+  #img5{
+      background-image: url("../img/queijaria-escola.jpg");
+      opacity: 0.6;
+  }
 
-.parallax {
-    /* The image used */
-    /* Set a specific height */
-    min-height: 600px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .parallax {
+      /* The image used */
+      /* Set a specific height */
+      min-height: 600px;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .legenda{
+    color: #000;
+    font-family: Arial, sans-serif;
+    width: 800px;
+  }
+  .legenda h1{
+    text-align: center;
+    font-size: 12pt;
+  }
+  .legenda p{
+    text-align: justify;
+      font-size: 9pt;
+  }
+  #leg{
+  /*  position: absolute;
+    top: 50%;*/
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 100%;
+  }
+  #leg h1{
+      text-transform: uppercase;
+      padding: 20px;
+      padding-bottom: 0;
+  }
+  #leg p{
+    padding: 20px;
+    text-align: center;
+  }
+  #leg1{
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 96%;
+    padding: 2%;
+  }
+  #leg2{
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 96%;
+    padding: 2%;
+  }
+  #leg3{
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 96%;
+    padding: 2%;
+  }
+  #leg4{
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 96%;
+    padding: 2%;
+  }
+  #leg5{
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 96%;
+    padding: 2%;
+  }
 }
-.legenda{
-  color: #000;
-  font-family: Arial, sans-serif;
-  width: 800px;
-}
-.legenda h1{
-  text-align: center;
-}
-.legenda p{
-  text-align: justify;
-}
-#leg{
-  position: absolute;
-  top: 50%;
-  font-size: 24pt;
-  background-color: rgba(0,0,0,0.5);
-  color: rgba(255,255,255,0.7);
-  width: 100%;
-}
-#leg h1{
-    text-transform: uppercase;
-}
-#leg p{
-  margin-top: 50px;
-  text-align: center;
-}
-#leg1{
-  position: absolute;
-  top: 150%;
-  background-color: rgba(0,0,0,0.5);
-  color: rgba(255,255,255,0.7);
-  width: 96%;
-  padding: 2%;
-}
-#leg2{
-  position: absolute;
-  top: 250%;
-  background-color: rgba(0,0,0,0.5);
-  color: rgba(255,255,255,0.7);
-  width: 96%;
-  padding: 2%;
-}
-#leg3{
-  position: absolute;
-  top: 330%;
-  background-color: rgba(0,0,0,0.5);
-  color: rgba(255,255,255,0.7);
-  width: 96%;
-  padding: 2%;
-}
-#leg4{
-  position: absolute;
-  top: 430%;
-  background-color: rgba(0,0,0,0.5);
-  color: rgba(255,255,255,0.7);
-  width: 96%;
-  padding: 2%;
-}
-#leg5{
-  position: absolute;
-  top: 530%;
-  background-color: rgba(0,0,0,0.5);
-  color: rgba(255,255,255,0.7);
-  width: 96%;
-  padding: 2%;
+@media (min-width:1000px) {
+  #img{
+    background-image: url("../img/nf.jpg");
+    opacity: 0.6;
+  }
+  #img1{
+      background-image: url("../img/caosentado.jpg");
+      opacity: 0.6;
+  }
+  #img2{
+      background-image: url("../img/country.jpg");
+      opacity: 0.6;
+  }
+  #img3{
+      background-image: url("../img/teleferico.jpg");
+      opacity: 0.6;
+  }
+  #img4{
+      background-image: url("../img/caledonia.jpg");
+      opacity: 0.6;
+  }
+  #img5{
+      background-image: url("../img/queijaria-escola.jpg");
+      opacity: 0.6;
+  }
+
+  .parallax {
+      /* The image used */
+      /* Set a specific height */
+      min-height: 600px;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .legenda{
+    color: #000;
+    font-family: Arial, sans-serif;
+    width: 800px;
+  }
+  .legenda h1{
+    text-align: center;
+    font-size: 16pt;
+  }
+  .legenda p{
+    text-align: justify;
+    font-size: 14pt;
+  }
+  #leg{
+    position: absolute;
+    top: 70%;
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 100%;
+  }
+  #leg h1{
+      text-transform: uppercase;
+  }
+  #leg p{
+    margin-top: 50px;
+    text-align: center;
+  }
+  #leg1{
+    position: absolute;
+    top: 170%;
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 96%;
+    padding: 2%;
+  }
+  #leg2{
+    position: absolute;
+    top: 270%;
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 96%;
+    padding: 2%;
+  }
+  #leg3{
+    position: absolute;
+    top: 350%;
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 96%;
+    padding: 2%;
+  }
+  #leg4{
+    position: absolute;
+    top: 450%;
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 96%;
+    padding: 2%;
+  }
+  #leg5{
+    position: absolute;
+    top: 540%;
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,0.7);
+    width: 96%;
+    padding: 2%;
+  }
 }
