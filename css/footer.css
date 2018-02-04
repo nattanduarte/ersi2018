@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 320px) {
+  .footer{
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    background-color: #bebdbd;
+    color: #fff;
+    text-align: center;
+  }
+  .footer-ersi-facebook-box{
+    width: 340px;
+    height: 300px;
+    margin: 10px 0;
+  }
+  .footer-ersi-suporters{
+    width: 400px;
+  }
+  .footer-ersi-organizaters img{
+      position: relative;
+      width: 200px;
+  }
+}
+@media (min-width: 1000px) {
+  .footer{
+    /*border: 1px solid black;*/
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #bebdbd;
+    color: #fff;
+  }
+  .footer-ersi-facebook, .footer-ersi-suporters, .footer-ersi-organizaters{
+    margin: 20px;
+  }
+  .footer-ersi-facebook-box{
+    width: 340px;
+    height: 300px;
+    margin: 10px 0;
+  }
+  .footer-ersi-suporters{
+    width: 400px;
+  }
+  .footer-ersi-organizaters img{
+      position: relative;
+      top: 50px;
+      width: 300px;
+  }
+}

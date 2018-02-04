@@ -1,0 +1,125 @@
+@media (min-width:320px) {
+  .main-presentation{
+    background-color: #e7e7e7;
+    height: 500px;
+    color: rgba(0,0,0,0.8);
+    font-family: Arial, sans-serif;
+    padding: 50px;
+  }
+  .main-presentation p{
+    position: relative;
+    top: 20px;
+    text-align: justify;
+  }
+  .main-about{
+    position: relative;
+    height: 500px;
+    font-family: Arial, sans-serif;
+    padding: 70px 0;
+    background-color: #6d6d8d;
+    color: #fff;
+  }
+  .main-about img{
+    width: 0;
+  }
+  .main-about-title,.main-about-text{
+      width: 550px;
+      position: absolute;
+      right: 200px;
+  }
+  .main-about h1,h2{
+    text-align: center;
+  }
+  .main-about h1{
+    position: absolute;
+    top: 40px;
+  }
+  .main-about h2{
+    position: absolute;
+    top: 90px;
+  }
+  .main-about-text{
+    position: absolute;
+    top: 140px;
+    text-align: justify;
+    font-size: 18pt;
+  }
+  .main-about-button{
+    position: absolute;
+    bottom: 50px;
+    right: 40%;
+    width: 200px;
+    height: 70px;
+    background-color: #14153d;
+    border: none;
+  }
+  .main-about-button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20pt;
+  }
+}
+
+@media (min-width:1350px) {
+.main-presentation{
+  background-color: #e7e7e7;
+  height: 500px;
+  color: rgba(0,0,0,0.8);
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+.main-presentation p{
+  position: relative;
+  top: 20px;
+  text-align: justify;
+}
+.main-about{
+  position: relative;
+  height: 500px;
+  font-family: Arial, sans-serif;
+  padding: 70px 0;
+  background-color: #6d6d8d;
+  color: #fff;
+}
+.main-about img{
+  width: 650px;
+  position: absolute;
+  left: 50px;
+}
+.main-about-title,.main-about-text{
+    width: 550px;
+    position: absolute;
+    right: 50px;
+}
+.main-about h1,h2{
+  text-align: center;
+}
+.main-about h1{
+  position: absolute;
+  top: 160px;
+}
+.main-about h2{
+  position: absolute;
+  top: 200px;
+}
+.main-about-text{
+  position: absolute;
+  top: 250px;
+  text-align: justify;
+  font-size: 12pt;
+}
+.main-about-button{
+  position: absolute;
+  bottom: 50px;
+  right: 20%;
+  width: 100px;
+  height: 50px;
+  background-color: #14153d;
+  border: none;
+}
+.main-about-button a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 10pt;
+}
+}
