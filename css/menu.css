@@ -18,12 +18,13 @@
   .menu-list li{
     display: inline;
     /*padding: 0 5px;*/
-    border-bottom: 1px solid #fff;
+
   }
   .menu-list a{
       text-decoration: none;
       color: #fff;
       font-family: Arial;
+        border-bottom: 1px solid #fff;
   }
   .menu-list{
     list-style: none;
