@@ -1,0 +1,34 @@
+APRESENTAÇÃO
+
+Neste ano, a V Escola Regional de Sistemas de Informação (ERSI - 2018) terá, em sua programação, a primeira Mostra Regional de Automação, Controle e Robótica. Esse evento será uma mostra científica cujo objetivo é estimular e divulgar trabalhos científicos e, inovações tecnológicas e metodológicas que venham contribuir significativamente para o desenvolvimento da educação, indústria, agropecuária e cidades, sendo os três últimos de maneira sustentável. Portanto, o evento destina-se a estudantes do ensino médio e técnico de instituições de ensino públicas e privadas, bem como estudantes de cursos superiores, pós-graduações e pesquisadores.
+
+
+#############################################
+INSTRUÇÕES GERAIS PARA AVALIAÇÃO DOS TRABALHOS
+#############################################
+
+TRABALHOS SUBMETIDOS EM FORMATO MULTIMÍDIA:
+Os trabalhos submetidos em formato multimídia compreendem: um texto submetido pelo autor no
+próprio sistema acompanhado de material multimídia (imagens ou vídeos) em qualquer área do
+conhecimento compatível com a ERSI. O texto deve conter:
+- Resumo: espera-se uma boa descrição do trabalho, suficiente para delimitar o escopo do mesmo e
+seus principais diferenciais.
+- Descrição geral do trabalho: espera-se uma descrição um pouco mais abrangente apresentando
+pelo menos os objetivos do trabalho, uma visão geral da metodologia apresentada e os principais
+resultados obtidos.
+Embora esteja-se tratando de um formato sucinto, espera-se que os textos apresentem um
+descritivo suficiente para que a essência dos trabalhos possa ser compreendida e para que os
+mesmos possam se tornar boas fontes de referência para consultas feitas por outros professores ou
+alunos no futuro.
+Os arquivos multimídia são parte integrante do trabalho e devem auxiliar na visão geral do mesmo.
+TRABALHOS SUBMETIDOS EM FORMATO DE ARTIGO CIENTÍFICO:
+Os trabalhos submetidos em formato de artigo científico compreendem: um arquivo científico em
+formato PDF e, opcionalmente, arquivos multimídia enviados pelos autores (imagens e vídeos).
+Os trabalhos deverão apresentar uma descrição mais completa e fundamentada dos trabalhos
+desenvolvidos em qualquer área do conhecimento compatível com a ERSI:
+- Espera-se que os artigos tenham seções equivalentes a: resumo, introdução, metodologia,
+resultados, conclusões e bibliografia.
+- Espera-se que os textos apresentem um descritivo suficiente para que os trabalhos possam se
+tornar boas fontes de referência para consultas feitas por outros professores ou alunos no futuro.
+Os arquivos multimídia (se existirem) são parte integrante do trabalho e devem auxiliar na visão
+geral do mesmo.
