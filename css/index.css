@@ -10,6 +10,14 @@
     position: relative;
     top: 20px;
     text-align: justify;
+    margin: 10px 0;
+  }
+  .main-presentation ul{
+    display: block;
+    margin: 40px 0 0 40px;
+  }
+  .main-image {
+    visibility: hidden;
   }
   .main-about{
     position: relative;
@@ -60,7 +68,9 @@
   }
 }
 
-@media (min-width:1350px) {
+@media (min-width:1000px) { /*tava 1350px*/
+
+
   .main-presentation{
     background-color: #e7e7e7;
     height: 350px;
@@ -72,7 +82,21 @@
     position: relative;
     top: 20px;
     text-align: justify;
+    margin: 10px 0;
   }
+  .main-presentation-content {
+    width: 800px;
+    float: left;
+  }
+  .main-presentation ul{
+    display: block;
+    margin: 40px 0 0 40px;
+  }
+  .main-image {
+    float: right;
+    visibility: visible;
+    width: 600px;
+  }  
   .main-about{
     position: relative;
     height: 500px;

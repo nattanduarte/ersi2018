@@ -15,6 +15,9 @@
     height: 300px;
     margin: 10px 0;
   }
+  .logo_apoio{
+    width: 400px;
+  }
   .footer-ersi-suporters{
     width: 400px;
   }
@@ -30,6 +33,7 @@
     font-family: Arial, sans-serif;
     background-color: #bebdbd;
     color: #fff;
+
   }
   .footer-ersi-facebook, .footer-ersi-suporters, .footer-ersi-organizaters{
     margin: 20px;
@@ -46,5 +50,8 @@
       position: relative;
       top: 50px;
       width: 300px;
+  }
+  .logo_apoio{
+    width: 400px;
   }
 }
