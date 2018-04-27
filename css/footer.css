@@ -6,33 +6,35 @@
   .footer{
     font-family: Arial, sans-serif;
     font-size: 10pt;
-    background-color: #bebdbd;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     text-align: center;
   }
   .footer-ersi-facebook-box{
     width: 340px;
     height: 300px;
-    margin: 10px 0;
+
   }
   .logo_apoio{
     width: 400px;
   }
   .footer-ersi-suporters{
     width: 400px;
+    float: left;
   }
   .footer-ersi-organizaters img{
       position: relative;
       width: 200px;
   }
+
 }
 @media (min-width: 1000px) {
   .footer{
     /*border: 1px solid black;*/
     display: flex;
     font-family: Arial, sans-serif;
-    background-color: #bebdbd;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 
   }
   .footer-ersi-facebook, .footer-ersi-suporters, .footer-ersi-organizaters{

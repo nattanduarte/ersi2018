@@ -5,20 +5,19 @@
 @media (min-width: 320px) {
   .menu{
     display: flex;
-    /*border: 1px solid black;*/
     text-align: center;
     background-color: #bebdbd;
     height: 150px;
     position: relative;
   }
   .menu img{
-    width: 0px;
+    width: 150px;
     position: absolute;
+    left: 40vw;
   }
   .menu-list li{
     display: inline;
-    /*padding: 0 5px;*/
-
+    padding: 0 7px;
   }
   .menu-list a{
       text-decoration: none;
@@ -27,14 +26,12 @@
     }
   .menu-list{
     list-style: none;
-    font-size: 20pt;
+    font-size: 16pt;
     position: absolute;
-    top: 20px;
-    left: 50px;
+    top: 110px;
+
   }
-  .main-about img{
-    width: 500px;
-  }
+
 
 }
 
@@ -43,7 +40,7 @@
   display: flex;
   /*border: 1px solid black;*/
   text-align: center;
-  background-color: #bebdbd;
+  background-color: #fff/*#bebdbd*/;
   height: 125px;
   position: relative;
 }
@@ -60,7 +57,7 @@
 }
 .menu-list a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-family: Arial;
 }
 .menu-list{

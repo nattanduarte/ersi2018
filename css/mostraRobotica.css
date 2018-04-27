@@ -1,19 +1,12 @@
 .main{
-  background-color: #e7e7e7;
+  background-color: #02081e;
+  color: rgba(255,255,255,0.8);
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
 
-  color: rgba(0,0,0,0.8);
-  font-family: Arial, sans-serif;
-  padding: 50px;
-}
-.main-presentation{
-  background-color: #e7e7e7;
-  color: rgba(0,0,0,0.8);
-  font-family: Arial, sans-serif;
-  padding: 50px;
-}
 .main-presentation p{
-  position: relative;
-  top: 20px;
+  margin: 20px 0;
   text-align: justify;
 }
 .main-list-list{
@@ -21,7 +14,7 @@
   height: 400px;
   overflow: hidden;
   font-family: Arial, sans-serif;
-  font-size: 10pt;
+  font-size: 12pt;
   margin: 15px;
   list-style: none;
 }
@@ -32,16 +25,8 @@
   padding: 2px 15px;
   text-align: justify;
 }
-.main-list-item:nth-child(2n+0){
-  background-color: lightblue;
-  color: #000;
-}
 .main-list-item-p{
-  background-color: lightblue;
-  color: #000;
   margin-top: 10px;
   text-align: justify;
   padding: 5px;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
-  border-radius: 1px;
 }
