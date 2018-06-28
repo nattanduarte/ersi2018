@@ -30,3 +30,14 @@
   text-align: justify;
   padding: 5px;
 }
+
+@media (max-width:320px){
+  .main-list-list{
+    font-size: 26pt;
+  }
+
+  .main-list-list h2{
+    font-size: 36pt;
+  }
+  
+}

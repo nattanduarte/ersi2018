@@ -46,3 +46,14 @@ h1,h2,h3,h4,h5,h6,li,a,p,article,figcaption{
   position: relative;
   left: 10px;
 }
+
+
+@media (max-width:320px) {
+  p{
+    font-size: 30pt;
+  }
+  #p2{
+    font-size: 26pt;
+    padding-right: 20px;
+  }
+}

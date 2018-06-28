@@ -137,7 +137,7 @@
     position: absolute;
     right:20px;
     visibility: visible;
-    width: 600px;
+    width: 450px;
   }
   .main-about h1,h2{
     color: #041244;
@@ -152,7 +152,7 @@
     color: #000;
   }
   .main-about img{
-    width: 650px;
+    width: 500px;
     position: absolute;
     left: 50px;
   }
@@ -204,7 +204,7 @@
     background-color: #02081e;
     color: rgba(255,255,255,0.8);
     font-family: Arial, sans-serif;
-    padding: 20px 0;
+    padding: 20px 25px;
     text-align: justify;
     font-size: 14pt;
   	display: block;

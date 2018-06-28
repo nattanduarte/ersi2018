@@ -5,6 +5,16 @@
   font-family: Arial, sans-serif;
   padding: 50px;
 }
+.main h3, h1{
+  margin:30px 5px 15px;
+}
+.main p{
+  margin:10px 5px;
+  line-height: 1.3em;
+}
+.main dd{
+  margin:10px 15px;
+}
 .main-list-list{
   width: 100%;
   list-style: none;
