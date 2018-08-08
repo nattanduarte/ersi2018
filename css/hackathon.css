@@ -5,55 +5,21 @@ h1,h2,h3,h4,h5,h6,li,a,p,article,figcaption{
   font-family: 'Roboto Mono', sans-serif;
   color:#65fe3f;
 }
-/* menu*/
-.menu{
-  display: flex;
-  /*border: 1px solid black;*/
-  text-align: center;
-  background-color: #4f4949;
-  height: 125px;
-  position: relative;
-}
-.menu h1{
-  font-size: 3em;
-  position: absolute;
-  top: -20px;
-  left: 20px;
-  text-shadow:0 0 3px #65fe3f, 0 0 4px #65fe3f, 0 0 20px #65fe3f;
-}
-.menu-list{
-  height: 10%;
-  list-style: none;
-  font-size: 12pt;
-  position: absolute;
-  top: 30px;
-  left: 25vw;
-}
-.menu-list li{
-  display: inline;
-  padding: 0 5px;
-}
-/* fim do menu */
-.main{
-  width: 95%;
-  height: 420px;
-  padding: 30px;
-  margin-top:  15px;
-  background-color:#111111;
-  text-align: justify;
-}
-#p2{
-  position: relative;
-  left: 10px;
+@media screen and (min-device-width: 768px){
+    /* fim do menu */
+    .main{
+      width: 95%;
+      height: 420px;
+      padding: 30px;
+      margin-top:  15px;
+      background-color:#111111;
+      text-align: justify;
+    }
 }
 
-
-@media (max-width:320px) {
-  p{
-    font-size: 30pt;
-  }
-  #p2{
-    font-size: 26pt;
-    padding-right: 20px;
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+  p {
+    margin: 20px 10px;
+    font-size: 1em;
   }
 }

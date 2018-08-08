@@ -1,224 +1,166 @@
-@media (min-width:320px) {
-  .main-presentation{
-    background-color: #02081e;  /*#e7e7e7;*/
-    height: 400px;
-    color: rgba(255,255,255,0.8);
-    font-family: Arial, sans-serif;
-    padding: 50px;
-  }
-
-  .main-presentation p{
-    position: relative;
-    top:0px;
-    text-align: justify;
-    margin: 10px 0;
-    font-size: 16pt;
-  }
-
-  .main-presentation ul{
-    display: block;
-    margin: 10px 0 15px 30px;
-    font-size: 14pt;
-  }
-
-  .main-about{
-    position: relative;
-    height: 500px;
-    font-family: Arial, sans-serif;
-    padding: 50px 0;
-    /*background-color:#fff;*/
-    background-color: #efe6e6;
-    color: #000;
-  }
-
-  .main-about img{
-    width: 0;
-  }
-
-  .main-about h1,h2{
-    color: #041244;
-  }
-
-  .main-about-title,.main-about-text{
-      width: 550px;
-      position: absolute;
-      right: 200px;
-  }
-
-  .main-about h1,h2{
-    text-align: center;
-  }
-
-  .main-about h1{
-    position: absolute;
-    top: 40px;
-  }
-
-  .main-about h2{
-    position: absolute;
-    top: 90px;
-  }
-
-  .main-about-text{
-    position: absolute;
-    top: 140px;
-    text-align: justify;
-    font-size: 18pt;
-  }
-
-  .main-about-button{
-    position: absolute;
-    bottom: 50px;
-    right: 40%;
-    width: 200px;
-    height: 70px;
-    background-color: #14153d;
-    border: none;
-  }
-
-  .main-about-button a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 20pt;
-  }
-
-  .main-org{
-    background-color: #02081e;
-    color: rgba(255,255,255,0.8);
-    font-family: Arial, sans-serif;
-    padding: 20px 0;
-    text-align: center;
-    font-size: 9pt;
-  	display: block;
-  }
-  .main-org h3{
-    margin: 20px 10px;
-  }
-  .main-org dt{
-  	margin: 0 30px;
-    font-size: 8pt;
-  }
-  .main-org h2{
-    color: rgba(255,255,255,0.8);
-    margin-bottom: 20px;
-  }
-
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .main-presentation{
+        background-color: #02081e;  /*#e7e7e7;*/
+        padding: 50px 20px;
+    }
+    .main-presentation p{
+        position: relative;
+        top:0px;
+        margin: 20px 0;
+    }
+    .main-presentation ul{
+        display: block;
+        margin: 10px 0 15px 30px;
+    }
+    .main-image {
+        width: 100%;
+    }
+    .main-about{
+        position: relative;
+        height: 500px;
+        padding: 50px 0;
+        background-color: #efe6e6;
+    }
+    .main-about img {
+        display: none;
+    }
+    .main-about-title,.main-about-text{
+        width: 550px;
+        position: absolute;
+        right: 200px;
+    }
+    .main-about h1, .main-about h2{
+        text-align: center;
+    }
+    .main-about h1{
+        position: absolute;
+        top: 40px;
+    }
+    .main-about h2{
+        position: absolute;
+        top: 90px;
+    }
+    .main-about article{
+        position: absolute;
+        top: 140px;
+        text-align: justify;
+        margin: 10px 20px;
+    }
+    .main-about button{
+        position: absolute;
+        bottom: 50px;
+        right: 40%;
+        width: 200px;
+        height: 70px;
+        background-color: #14153d;
+        border: none;
+    }
+    .main-org{
+        background-color: #02081e;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 9pt;
+     	display: block;
+    }
+    .main-org h3{
+        margin: 20px 10px;
+    }
+    .main-org dt{
+        margin: 0 30px;
+        font-size: 8pt;
+    }
+    .main-org h2{
+        margin-bottom: 20px;
+    }
 }
 
-@media (min-width:1000px) { /*tava 1350px*/
+@media screen and (min-device-width: 768px){
+    .main-presentation{
+        background-color: #02081e;  /*#e7e7e7;*/
+        padding: 50px 15px;
+    }
+    .main-presentation p{
+        margin: 10px 0;
+    }
+    .main-presentation-content {
+        width: 650px;
+        float: left;
+    }
+    .main-presentation ul{
+        display: block;
+        margin: 10px 0 15px 30px;
+    }
 
-  .main-presentation{
-    background-color: #02081e;  /*#e7e7e7;*/
-    height: 570px;
-    color: rgba(255,255,255,0.8);
-    font-family: Arial, sans-serif;
-    padding: 50px;
-  }
-  .main-presentation p{
-    position: relative;
-    top:0px;
-    text-align: justify;
-    margin: 10px 0;
-  }
-  .main-presentation-content {
-    width: 650px;
-    float: left;
-  }
-  .main-presentation ul{
-    display: block;
-    margin: 10px 0 15px 30px;
-  }
-  .main-presentation a{
-    text-decoration: none;
-      color: rgba(255,255,255,0.8);
-  }
-  .main-image {
-    float: right;
-    position: absolute;
-    right:20px;
-    visibility: visible;
-    width: 450px;
-  }
-  .main-about h1,h2{
-    color: #041244;
-  }
-  .main-about{
-    position: relative;
-    height: 500px;
-    font-family: Arial, sans-serif;
-    padding: 50px 0;
-    /*background-color:#fff;*/
-    background-color: #efe6e6;
-    color: #000;
-  }
-  .main-about img{
-    width: 500px;
-    position: absolute;
-    left: 50px;
-  }
-  .main-about-map{
-    width: 650px;
-    height: 400px;
-    position: absolute;
-    top: -30px;
-    right:600px;
-    border:none;
-  }
-  .main-about-title,.main-about-text{
-      width: 550px;
-      position: absolute;
-      right: 50px;
-  }
-  .main-about h1,h2{
-    text-align: center;
-  }
-  .main-about h1{
-    position: absolute;
-    top: 160px;
-  }
-  .main-about h2{
-    position: absolute;
-    top: 200px;
-  }
-  .main-about-text{
-    position: absolute;
-    top: 250px;
-    text-align: justify;
-    font-size: 12pt;
-  }
-  .main-about-button{
-    position: absolute;
-    bottom: 50px;
-    right: 20%;
-    width: 100px;
-    height: 50px;
-    background-color: #14153d;
-    border: none;
-  }
-  .main-about-button a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 10pt;
-  }
-  .main-org{
-    background-color: #02081e;
-    color: rgba(255,255,255,0.8);
-    font-family: Arial, sans-serif;
-    padding: 20px 25px;
-    text-align: justify;
-    font-size: 14pt;
-  	display: block;
-  }
-  .main-org h3{
-    margin: 10px 10px 0 10px;
-  }
-  .main-org dt{
-  	margin: 0 30px;
-    font-size: 12pt;
-  }
-  .main-org h2{
-    color: rgba(255,255,255,0.8);
-    margin-bottom: 20px;
-  }
+    .main-image {
+        float: right;
+        width: 450px;
+    }
+    
+    .main-about{
+        position: relative;
+        padding: 50px 0;
+        background-color: #efe6e6;
+    }
+    .main-about img {
+        display: block;
+    }
+    .main-about img{
+        width: 500px;    
+    }
+    .main-about-map{
+        width: 650px;
+        height: 400px;
+        position: absolute;
+        top: -30px;
+        right:600px;
+        border:none;
+    }
+    .main-about-title,.main-about article{
+        width: 550px;
+        position: absolute;
+        right: 50px;
+    }
+    .main-about h1, .main-about h2{
+        text-align: center;
+    }
+    .main-about h1{
+        position: absolute;
+        top: 160px;
+    }
+    .main-about h2{
+        position: absolute;
+        top: 200px;
+    }
+    .main-about article{
+        top: 250px;
+    }
+    .main-about button{
+        position: absolute;
+        bottom: 50px;
+        right: 20%;
+        width: 100px;
+        height: 50px;
+        background-color: #14153d;
+        border: none;
+    }
+    .main-about-button a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 10pt;
+    }
+    .main-org{
+        background-color: #02081e;
+        padding: 20px 25px;
+      	display: block;
+    }
+    .main-org h3{
+        margin: 10px 10px 0 10px;
+    }
+    .main-org dt{
+        margin: 0 30px;
+    }
+    .main-org h2{
+        margin-bottom: 20px;
+    }
 
 }

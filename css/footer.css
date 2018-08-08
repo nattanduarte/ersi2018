@@ -2,36 +2,39 @@
   margin: 0;
   padding: 0;
 }
-@media (min-width: 320px) {
-  .footer{
-    font-family: Arial, sans-serif;
-    font-size: 10pt;
-    background-color: #fff;
-    color: #000;
-    text-align: center;
-  }
-  .footer-ersi-facebook-box{
-    width: 340px;
-    height: 300px;
-
-  }
-  .logo_apoio{
-    width: 400px;
-  }
-  .footer-ersi-suporters{
-    width: 400px;
-    float: left;
-  }
-  .footer-ersi-organizaters img{
-      position: relative;
-      width: 200px;
-  }
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    footer{
+        background-color: #fff;
+        text-align: center;
+    }
+    footer h3{
+        margin: 25px 0 5px 0;
+    }
+    .footer-ersi-facebook-box{
+        width: 340px;
+        height: 300px;
+    }
+    .logo_apoio{
+        width: 400px;
+    }
+    .footer-ersi-facebook-box{
+        width: 400px;
+        height: 500px;
+        margin: 10px 0;
+    }
+    
+    .footer-ersi-suporters, .footer-ersi-organizaters{
+        width: 100%;
+    }
+    .footer-ersi-organizaters img{
+        position: relative;
+        width: 400px;
+    }
 
 }
-@media (min-width: 1000px) {
-  .footer{
-    /*border: 1px solid black;*/
-    display: flex;
+@media screen and (min-device-width: 768px){
+  .footer, footer{
+    //display: flex;
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #000;
@@ -39,6 +42,7 @@
   }
   .footer-ersi-facebook, .footer-ersi-suporters, .footer-ersi-organizaters{
     margin: 20px;
+    float: left;
   }
   .footer-ersi-facebook-box{
     width: 340px;
@@ -55,5 +59,36 @@
   }
   .logo_apoio{
     width: 400px;
+  }
+
+  .apoio, .patrocinio {
+    margin: 0 20px;
+  }
+
+  .patrocinio h3, .apoio h3 {
+    color: #666;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+  }
+
+  .patrocinador, .apoiador {
+    margin: 0 10px;
+  }
+
+  .apoiador-institucional, .apoiador-empresa {
+    float: left;
+  }
+
+  .apoiador{
+    float: left;
+  }
+  
+  .apoiador-institucional img {
+    height: 100px;
+  }
+  
+  .apoiador-empresa img{
+    height: 100px;
   }
 }

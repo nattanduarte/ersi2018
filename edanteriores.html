@@ -12,7 +12,7 @@
     <script>
       /* Set the width of the side navigation to 250px */
       function openNav() {
-          document.getElementById("sidenav").style.width = "250px";
+          document.getElementById("sidenav").style.width = "350px";
       }
 
       /* Set the width of the side navigation to 0 */
@@ -26,33 +26,41 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/edanteriores.css">
   </head>
-  <body>
+<body>
     <nav class="menu">
-        <a href="index.html"><img src="./img/logo_ersi_escuro.png" alt="Logo da ERSI 2018"></a>
+        <a href="http://www.sbc.org.br/" target="_blank">
+            <img src="./img/sbc.png" alt="Logo SBC" class="sbc_top">
+        </a>
+        <a href="index.html">
+            <img src="./img/logo_ersi_escuro.png" alt="Logo da ERSI 2018" class="ersi_logo">
+        </a>
         <ul class="menu-list">
-          <li><a href="index.html"> Início </a></li>
-          <li><a href="chamada.html"> Chamada </a></li>
-          <li><a href="programacao.html"> Programação </a></li>
-          <li><a href="inscricoes.html"> Inscrições </a></li>
-          <li><a href="local.html"> Local</a></li>
-          <li><a href="palestras.html"> Palestras </a></li>
-          <li><a href="hackathon.html">Hackathon</a></li>
-          <li><a href="mostraRobotica.html">Mostra de Robótica</a></li>
+            <li><a href="index.html"> Início </a></li>
+            <li><a href="chamada.html"> Chamadas </a></li>
+            <li><a href="programacao.html"> Programação </a></li>
+            <li><a href="inscricoes.html"> Inscrições </a></li>
+            <li><a href="local.html"> Local</a></li>
+            <li><a href="palestras.html"> Palestras </a></li>
+            <li><a href="hackathon.html">Hackathon</a></li>
+            <li><a href="mostraRobotica.html">Mostra de Robótica</a></li>
+            <li><a href="minicursos.html">Minicursos</a></li>
         </ul>
-      </nav>
-      <!--
-      <span id="menuLat" onclick="openNav()">open</span>
-    -->
+        <div id="menuLat" onclick="openNav()">
+            <img src="./img/menu-resp.png"/>
+        </div>
+    </nav>
+
     <nav id="sidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html"> Início </a>
-        <a href="chamada.html"> Chamada </a>
+        <a href="chamada.html"> Chamadas</a>
         <a href="programacao.html"> Programação </a>
         <a href="inscricoes.html"> Inscrições </a>
         <a href="local.html"> Local</a>
         <a href="palestras.html"> Palestras </a>
         <a href="hackathon.html">Hackathon</a>
         <a href="mostraRobotica.html">Mostra de Robótica</a>
+        <a href="minicursos.html">Minicursos</a>
     </nav>
       <main class="main">
         <section class="main-content">
@@ -78,17 +86,21 @@
           </figure>
         </section>
       </main>
-      <footer class="footer">
-      <div class="footer-ersi-facebook">
-        <h3>ERSI no Facebook:</h3>
-        <iframe class="footer-ersi-facebook-box" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FERSIRJ%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"></iframe>
-      </div>
-      <div class="footer-ersi-suporters">
-        <h3>Apoio:</h3>
-        <a href="http://www.sbc.org.br/" target="_blank"><img src="./img/sbc.png" alt="Logo SBC"></a>
-      </div>
-      <div class="footer-ersi-organizaters">
-        <h3>Realização por:</h3>
-        <a href="#"><img src="./img/logo_cefet.png" class="logo_apoio" alt="apoio"></a>
-      </div>
+    <footer class="footer">
+        <div class="footer-ersi-suporters">
+            <h3>Realização</h3>
+            <a href="http://www.sbc.org.br/" target="_blank"><img src="./img/sbc.png" alt="Logo SBC"></a>
+        </div>
+        <div class="footer-ersi-organizaters">
+            <h3>Organização</h3>
+            <a href="#"><img src="./img/logo_cefet.png" class="logo_apoio" alt="Organização"></a>
+        </div>
+        <div class="footer-ersi-facebook">
+            <h3>ERSI no Facebook:</h3>
+            <iframe 
+                class="footer-ersi-facebook-box" 
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FERSI2018%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"></iframe>
+        </div>
     </footer>
+</body>
+  </html>

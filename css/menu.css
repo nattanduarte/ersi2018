@@ -1,75 +1,150 @@
-*{
-  margin: 0;
-  padding: 0;
-}
-@media (min-width: 320px) {
-  .menu{
-    display: flex;
-    text-align: center;
-    background-color: #bebdbd;
-    height: 150px;
-    position: relative;
-  }
-  .menu img{
-    width: 150px;
-    position: absolute;
-    left: 40vw;
-  }
-  .menu-list li{
-    display: inline;
-    padding: 0 7px;
-  }
-  .menu-list a{
-      text-decoration: none;
-      color: #fff;
-      font-family: Arial;
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+    .menu-list{
+        visibility: hidden;
     }
-  .menu-list{
-    list-style: none;
-    font-size: 16pt;
-    position: absolute;
-    top: 110px;
+    .sbc_top{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        //height: 120px;
+        width: 130px;
+    }
+    .ersi_logo{
+        width: 220px;//190px;
+        position: absolute;
+        right: 150px;
+        top: 30px;//15px;
+    }
+    #menuLat{
+        display: block;
+        float: right;
+        width: 50px;
+    }
 
-  }
+    #menuLat img{
+        width: 80px;
+        position: absolute;
+        top: 60px;//35px;
+        right: 35px;//25px;
+    }
+    
+    .menu{
+        display: flex;
+        text-align: center;
+        background-color: #fff;
+        height: 220px;
+        position: relative;
+    }
+
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: #111; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.2s; /* 0.2 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 15px 8px 15px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    main {
+        transition: margin-left .3s;
+    }
+
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 3em;}
+
+}
+
+@media screen and (min-device-width: 768px){
+    .menu-list{
+        visibility: visible;  
+        list-style: none;
+        font-size: 16pt;
+        position: absolute;
+        top: 110px;
+    }
+    .menu-list li{
+        display: inline;
+        padding: 0 7px;
+    }
+    .menu-list a{
+        text-decoration: none;
+        color: #fff;
+        font-family: Arial;
+    }
+    #menuLat, .sidenav{
+        display: none;
+    }
+    a .sbc_top{
+        position: absolute;
+        left: 0px;
+        //height: 95px//100px;
+        width: 100px !important;
+    }
+    a .ersi_logo{
+        float: right;
+    }
+    .menu{
+        display: block;
+        position: relative;
+        text-align: center;
+        background-color: #fff/*#bebdbd*/;
+        height: 155px;
+    }
+
+    .menu img{
+        width: 150px;
+    }
+
+    .menu-list li{
+        display: inline;
+        padding: 0 5px;
+    }
+    .menu-list a{
+        text-decoration: none;
+        color: #000;
+        font-family: Arial;
+    }
+    .menu-list{
+        width: 100%;
+        height: 10%;
+        list-style: none;
+        font-size: 12pt;
+        position: absolute;
+        top: 100px;
+        margin: 0 auto;
+    }
+    .main-about img{
+        width: 500px;
+    }
+}
 
 
-}
-
-@media (min-width: 1024px) {
-.menu{
-  display: flex;
-  /*border: 1px solid black;*/
-  text-align: center;
-  background-color: #fff/*#bebdbd*/;
-  height: 125px;
-  position: relative;
-}
-.menu img{
-  width: 150px;
-  position: relative;
-  top: 5px;
-  left: 30px;
-}
-.menu-list li{
-  display: inline;
-  padding: 0 5px;
-
-}
-.menu-list a{
-    text-decoration: none;
-    color: #000;
-    font-family: Arial;
-}
-.menu-list{
-  width: 60%;
-  height: 10%;
-  list-style: none;
-  font-size: 12pt;
-  position: absolute;
-  top: 50px;
-  left: 30vw;
-}
-.main-about img{
-  width: 500px;
-}
-}

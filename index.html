@@ -1,141 +1,175 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+<head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117933373-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-117933373-1');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-117933373-1');
     </script>
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("sidenav").style.width = "350px";
+        }
 
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("sidenav").style.width = "0";
+        }
+    </script>
     <meta charset="utf-8">
     <title>ERSI 2018</title>
     <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/fonts.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/index.css">
     <script src="./js/jquery-min.js"></script>
     <script>
-      function mouseover(){
-        $("#main-about-image").hide();
-        $(".main-about-title").prepend($("<iframe />")
-          .addClass("main-about-map")
-          .attr("src","https://www.google.com/maps/embed/v1/place?key=AIzaSyBWbS676cX_i9th-5WcA44xWRkvlIcaSEo&q=Centro+Federal+de+Educação+Tecnológica+Celso+Suckow+da+Fonseca,+Campus+Nova+Friburgo,Nova+Friburgo,Brasil")
-          .attr("onmouseout","mouseout()")
-          );
+        function mouseover(){
+            $("#main-about-image").hide();
+            $(".main-about-title").prepend($("<iframe />")
+                .addClass("main-about-map")
+                .attr("src","https://www.google.com/maps/embed/v1/place?key=AIzaSyBWbS676cX_i9th-5WcA44xWRkvlIcaSEo&q=Centro+Federal+de+Educação+Tecnológica+Celso+Suckow+da+Fonseca,+Campus+Nova+Friburgo,Nova+Friburgo,Brasil")
+                .attr("onmouseout","mouseout()")
+            );
         };
         function mouseout(){
-          $(".main-about-map").hide();
-          $("#main-about-image").show();
+            $(".main-about-map").hide();
+            $("#main-about-image").show();
 
         }
     </script>
-  </head>
-  <body>
-    <nav class="menu">
-      <a href="#"><img src="./img/logo_ersi_escuro.png" alt="Logo da ERSI 2018"></a>
-      <ul class="menu-list">
-        <li><a href="#"> Início </a></li>
-        <li><a href="chamada.html"> Chamada </a></li>
-        <li><a href="programacao.html"> Programação </a></li>
-        <li><a href="inscricoes.html"> Inscrições </a></li>
-        <li><a href="#event-place"> Local</a></li>
-        <li><a href="palestras.html"> Palestras </a></li>
-        <li><a href="hackathon.html">Hackathon</a></li>
-          <li><a href="mostraRobotica.html">Mostra de Robótica</a></li>
-      </ul>
-    </nav>
-    <main class="main">
-      <div class="main-presentation">
-        <h1>Apresentação</h1>
-        <div class="main-presentation-content">
-          <p>
-            A Escola Regional de Sistemas de Informação - RJ (ERSI-RJ) é um evento para reunir profissionais, professores e, principalmente, estudantes interessados em aprender e discutir problemas, soluções e conceitos relacionados a Sistemas de Informação por meio de palestras, painéis, apresentação de trabalhos científicos, minicursos e tutoriais.
-          </p>
-          <p>
-            Em 2018, a V ERSI-RJ seja realizada na cidade de Nova Friburgo, RJ, tendo como objetivo principal reunir estudantes, professores, pesquisadores e profissionais de Sistemas de Informação para promover discussões sobre temas relacionados a esta área.
-          </p>
-          <p>
-            A programação da V ERSI-RJ contará com diversas atividades que se destacam pelo seu alto nível técnico-científico e que cobrem diferentes aspectos, incluindo:
-          </p>
-
-          <ul>
-            <li>Palestras convidadas com especialistas nacionais;</li>
-            <li>Painel com representantes da academia, indústria e governo;</li>
-            <li>Sessões técnicas para a apresentação dos artigos científicos selecionados;</li>
-            <li>Minicursos em diversas áreas;</li>
-            <li>Mostra de robótica e automação;</li>
-            <li>Hackathon.</li>
-          </ul>
-          <a href="edanteriores.html"> Confira as Edições anteriores </a>
+</head>
+<body>
+   <nav class="menu">
+        <a href="http://www.sbc.org.br/" target="_blank">
+            <img src="./img/sbc.png" alt="Logo SBC" class="sbc_top">
+        </a>
+        <a href="index.html">
+            <img src="./img/logo_ersi_escuro.png" alt="Logo da ERSI 2018" class="ersi_logo">
+        </a>
+        <ul class="menu-list">
+            <li><a href="index.html"> Início </a></li>
+            <li><a href="chamada.html"> Chamadas </a></li>
+            <li><a href="programacao.html"> Programação </a></li>
+            <li><a href="inscricoes.html"> Inscrições </a></li>
+            <li><a href="local.html"> Local</a></li>
+            <li><a href="palestras.html"> Palestras </a></li>
+            <li><a href="hackathon.html">Hackathon</a></li>
+            <li><a href="mostraRobotica.html">Mostra de Robótica</a></li>
+            <li><a href="minicursos.html">Minicursos</a></li>
+        </ul>
+        <div id="menuLat" onclick="openNav()">
+            <img src="./img/menu-resp.png"/>
         </div>
-        <img src="./img/nova-friburgo.jpg" alt="Nova Friburgo" class="main-image"/>
-      </div>
-      <div class="main-about" id="event-place">
-        <img src="./img/cefet.png" alt="Cefet/Rj Campus Friburgo" id="main-about-image" >
-        <h1 class="main-about-title" >CEFET/RJ</h1>
-        <h2 class="main-about-title"><i>campus</i> Nova Friburgo</h2>
-        <article class="main-about-text">A realização da escola regional de sistemas de informação no CEFET/RJ Nova Friburgo representa uma grande oportunidade de difundir, para além dos grandes centros, o papel e a importância da SBC para o desenvolvimento tecnológico na área da computação. A organização e execução do evento irá aumentar o engajamento, integração e proporcionará um contato com novos conhecimentos e tecnologias aos discentes de universidades do interior, que usualmente não têm acesso a grandes eventos
+    </nav>
 
-        <!-- lembrando que smartphone não tem mouse...
-          <br/><br/><br/> Para saber como chegar, passe o mouse sobre a foto ao lado!
-        -->
-        </article>
-        <button class="main-about-button"><a href="local.html">Veja mais</a></button>
-      </div>
-      <div class="main-org">
-        <h3>Coordenação da Escola Regional de Sistemas de Informação 2018</h3>
-        <dl>
-          <dt>Rafael Elias de Lima Escalfoni – CEFET/RJ</dt>
-          <dt>Bruno Policarpo Toledo Freitas – CEFET/RJ</dt>
-        </dl>
-        <h3>Coordenação de Painéis e Palestras</h3>
-        <dl>
-          <dt>Eliezer Dutra Gonçalves – CEFET/RJ</dt>
-          <dt>Raimundo José Macário da Costa – UFRRJ</dt>
-        </dl>
-        <h3>Coordenação de Sessões Técnicas e Pôsteres</h3>
-        <dl>
-          <dt>Claudio Miceli de Farias – NCE/UFRJ</dt>
-          <dt>Marco André Abud Kappel – CEFET/RJ</dt>
-        </dl>
-        <h3>Coordenação de Minicursos</h3>
-        <dl>
-          <dt>Tiago Cruz de França – UFRRJ</dt>
-        </dl>
-        <h3>Coordenação da Feira de Robótica e Automação</h3>
-        <dl>
-          <dt>Luís Cláudio Batista da Silva – CEFET/RJ</dt>
-          <dt>Fabrício Barros Gonçalves – IFF</dt>
-        </dl>
-        <h3>Coordenação da Hackathon</h3>
-        <dl>
-          <dt>Álvaro Ernesto Robles Rincón – NCE/UFRJ</dt>
-          <dt>Thiago Americano do Brasil – CEFET/RJ</dt>
-        </dl>
-        <h3>Comitê de Organização</h3>
-        <dl>
-          <dt>Rafaela Moreira Oliveira - CEFET/RJ</dt>
-          <dt>Gisela Bochner - CEFET/RJ</dt>
-          <dt>André Queiroz Ferreira de Mello - CEFET/RJ</dt>
-          <dt>Edvar Fernandes Batista – CEFET/RJ</dt>
-        </dl>
-      </div>
+    <nav id="sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html"> Início </a>
+        <a href="chamada.html"> Chamadas</a>
+        <a href="programacao.html"> Programação </a>
+        <a href="inscricoes.html"> Inscrições </a>
+        <a href="local.html"> Local</a>
+        <a href="palestras.html"> Palestras </a>
+        <a href="hackathon.html">Hackathon</a>
+        <a href="mostraRobotica.html">Mostra de Robótica</a>
+        <a href="minicursos.html">Minicursos</a>
+    </nav>
+    <main>
+        <section class="main-presentation">
+            <h1>Apresentação</h1>
+            <div class="main-presentation-content">
+                <p>
+                    A Escola Regional de Sistemas de Informação - RJ (ERSI-RJ) é um evento para reunir profissionais, professores e, principalmente, estudantes interessados em aprender e discutir problemas, soluções e conceitos relacionados a Sistemas de Informação por meio de palestras, painéis, apresentação de trabalhos científicos, minicursos e tutoriais.
+                </p>
+                <p>
+                    Em 2018, a V ERSI-RJ seja realizada na cidade de Nova Friburgo, RJ, tendo como objetivo principal reunir estudantes, professores, pesquisadores e profissionais de Sistemas de Informação para promover discussões sobre temas relacionados a esta área.
+                </p>
+                <p>
+                    A programação da V ERSI-RJ contará com diversas atividades que se destacam pelo seu alto nível técnico-científico e que cobrem diferentes aspectos, incluindo:
+                </p>
+
+                <ul>
+                    <li>Palestras convidadas com especialistas nacionais;</li>
+                    <li>Painel com representantes da academia, indústria e governo;</li>
+                    <li>Sessões técnicas para a apresentação dos artigos científicos selecionados;</li>
+                    <li>Minicursos em diversas áreas;</li>
+                    <li>Mostra de robótica e automação;</li>
+                    <li>Hackathon.</li>
+                </ul>
+                <a href="edanteriores.html"> Confira as Edições anteriores </a>
+            </div>
+            <img src="./img/nova-friburgo.jpg" alt="Nova Friburgo" class="main-image"/>
+            <br clear="both"/>
+        </section>
+        <div class="main-about" id="event-place">
+            <img src="./img/cefet.png" alt="Cefet/Rj Campus Friburgo" id="main-about-image" >
+            <h1 class="main-about-title" >CEFET/RJ</h1>
+            <h2 class="main-about-title"><i>campus</i> Nova Friburgo</h2>
+            <article>
+                A realização da escola regional de sistemas de informação no CEFET/RJ Nova Friburgo representa uma grande oportunidade de difundir, para além dos grandes centros, o papel e a importância da SBC para o desenvolvimento tecnológico na área da computação. A organização e execução do evento irá aumentar o engajamento, integração e proporcionará um contato com novos conhecimentos e tecnologias aos discentes de universidades do interior, que usualmente não têm acesso a grandes eventos.
+            </article>
+            <button class="main-about-button"><a href="local.html">Veja mais</a></button>
+        </div>
+        <section class="main-org">
+            <h3>Coordenação da Escola Regional de Sistemas de Informação 2018</h3>
+            <dl>
+                <dt>Rafael Elias de Lima Escalfoni – CEFET/RJ</dt>
+                <dt>Bruno Policarpo Toledo Freitas – CEFET/RJ</dt>
+            </dl>
+            <h3>Coordenação de Painéis e Palestras</h3>
+            <dl>
+                <dt>Eliezer Dutra Gonçalves – CEFET/RJ</dt>
+                <dt>Raimundo José Macário da Costa – UFRRJ</dt>
+            </dl>
+            <h3>Coordenação de Sessões Técnicas e Pôsteres</h3>
+            <dl>
+                <dt>Claudio Miceli de Farias – NCE/UFRJ</dt>
+                <dt>Marco André Abud Kappel – CEFET/RJ</dt>
+            </dl>
+            <h3>Coordenação de Minicursos</h3>
+            <dl>
+                <dt>Tiago Cruz de França – UFRRJ</dt>
+                <dt>Juliana França - UFRRJ</dt>
+            </dl>
+            <h3>Coordenação da Feira de Robótica e Automação</h3>
+            <dl>
+                <dt>Luís Cláudio Batista da Silva – CEFET/RJ</dt>
+                <dt>Fabrício Barros Gonçalves – IFF</dt>
+            </dl>
+            <h3>Coordenação da Hackathon</h3>
+            <dl>
+                <dt>Álvaro Ernesto Robles Rincón – NCE/UFRJ</dt>
+                <dt>Thiago Americano do Brasil – CEFET/RJ</dt>
+            </dl>
+            <h3>Comitê de Organização</h3>
+            <dl>
+                <dt>Rafaela Moreira Oliveira - CEFET/RJ</dt>
+                <dt>Gisela Bochner - CEFET/RJ</dt>
+                <dt>André Queiroz Ferreira de Mello - CEFET/RJ</dt>
+                <dt>Edvar Fernandes Batista – CEFET/RJ</dt>
+            </dl>
+        </section>
     </main>
     <footer class="footer">
-      <div class="footer-ersi-facebook">
-        <h3>ERSI no Facebook:</h3>
-        <iframe class="footer-ersi-facebook-box" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FERSIRJ%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"></iframe>
-      </div>
-      <div class="footer-ersi-suporters">
-        <h3>Apoio:</h3>
-        <a href="http://www.sbc.org.br/" target="_blank"><img src="./img/sbc.png" alt="Logo SBC"></a>
-      </div>
-      <div class="footer-ersi-organizaters">
-        <h3>Realização por:</h3>
-        <a href="#"><img src="./img/logo_cefet.png" class="logo_apoio" alt="apoio"></a>
-      </div>
+        <div class="footer-ersi-suporters">
+            <h3>Realização</h3>
+            <a href="http://www.sbc.org.br/" target="_blank"><img src="./img/sbc.png" alt="Logo SBC"></a>
+        </div>
+        <div class="footer-ersi-organizaters">
+            <h3>Organização</h3>
+            <a href="#"><img src="./img/logo_cefet.png" class="logo_apoio" alt="Organização"></a>
+        </div>
+        <div class="footer-ersi-facebook">
+            <h3>ERSI no Facebook:</h3>
+            <iframe 
+                class="footer-ersi-facebook-box" 
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FERSI2018%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"></iframe>
+        </div>
     </footer>
-  </body>
+</body>
 </html>

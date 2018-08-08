@@ -1,0 +1,88 @@
+*{
+	font-family: Arial, sans-serif;
+}
+main, main section {
+  	color: #fff;
+}
+
+main p, main ul, main dl{
+	font-size: 1em;
+}
+
+a{
+	text-decoration: none;
+	color: #ace;
+}
+
+.main-about h1, .main-about h2{
+    color: #041244;
+}
+.main-about{
+	font-family: Arial, sans-serif;
+	color: #000;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px){
+	.mobile{
+		display: block;
+	}
+	.main-list-list{
+		font-size: 26pt;
+	}
+	
+	main h1{
+		font-size: 2.5em;
+	}
+	main h2{
+		font-size: 2.1em;
+	}
+	main p{
+		font-size: 1em;
+	}
+	main ul, main ol {
+		font-size: 0.9em;
+	}
+	.main-list-list h3 {
+		font-size: 2em;
+	}
+  	.main-about article{
+    	font-size: 2em;
+  	}
+	.main-about a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20pt;
+	}
+	footer{
+		font-size: 1em;
+		color: #000;
+	}
+	footer h3{
+		font-size: 1.5em;
+	}
+	
+}
+
+@media screen and (min-device-width: 768px){
+	.mobile{
+		display: none;
+	}
+	main h1 {
+		font-size: 2em;
+	}
+	.main-list-list{
+  		font-size: 1em;
+	}
+	.main-list-list h2{
+  		font-size: 1.4em;
+	}
+	.main-about article{
+    	font-size: 12pt;
+  	}
+
+  	.main-about a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 20pt;
+	}
+}

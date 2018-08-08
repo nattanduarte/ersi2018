@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+<head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117933373-1"></script>
     <script>
@@ -9,27 +9,61 @@
       gtag('js', new Date());
       gtag('config', 'UA-117933373-1');
     </script>
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("sidenav").style.width = "350px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("sidenav").style.width = "0";
+        }
+    </script>
     <meta charset="utf-8">
     <title>ERSI 2018</title>
     <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css"/>
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/chamada.css">
-  </head>
-  <body>
+</head>
+<body>
     <nav class="menu">
-        <a href="index.html"><img src="./img/logo_ersi_escuro.png" alt="Logo da ERSI 2018"></a>
+        <a href="http://www.sbc.org.br/" target="_blank">
+            <img src="./img/sbc.png" alt="Logo SBC" class="sbc_top">
+        </a>
+        <a href="index.html">
+            <img src="./img/logo_ersi_escuro.png" alt="Logo da ERSI 2018" class="ersi_logo">
+        </a>
         <ul class="menu-list">
-          <li><a href="index.html"> Início </a></li>
-          <li><a href="#"> Chamada </a></li>
-          <li><a href="programacao.html"> Programação </a></li>
-          <li><a href="inscricoes.html"> Inscrições </a></li>
-          <li><a href="local.html"> Local</a></li>
-          <li><a href="palestras.html"> Palestras </a></li>
-          <li><a href="hackathon.html">Hackathon</a></li>
-          <li><a href="mostraRobotica.html">Mostra de Robótica</a></li>
+            <li><a href="index.html"> Início </a></li>
+            <li><a href="chamada.html"> Chamadas </a></li>
+            <li><a href="programacao.html"> Programação </a></li>
+            <li><a href="inscricoes.html"> Inscrições </a></li>
+            <li><a href="local.html"> Local</a></li>
+            <li><a href="palestras.html"> Palestras </a></li>
+            <li><a href="hackathon.html">Hackathon</a></li>
+            <li><a href="mostraRobotica.html">Mostra de Robótica</a></li>
+            <li><a href="minicursos.html">Minicursos</a></li>
         </ul>
+        <div id="menuLat" onclick="openNav()">
+            <img src="./img/menu-resp.png"/>
+        </div>
     </nav>
-    <main class="main">
+
+    <nav id="sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html"> Início </a>
+        <a href="#"> Chamadas</a>
+        <a href="programacao.html"> Programação </a>
+        <a href="inscricoes.html"> Inscrições </a>
+        <a href="local.html"> Local</a>
+        <a href="palestras.html"> Palestras </a>
+        <a href="hackathon.html">Hackathon</a>
+        <a href="mostraRobotica.html">Mostra de Robótica</a>
+        <a href="minicursos.html">Minicursos</a>
+    </nav>
+    <main>
       <h1>Chamadas</h1>
       <p>
         A Escola Regional de Sistemas de Informação do Rio de Janeiro (ERSI-RJ) é um evento que inclui sessões técnicas, palestras convidadas, painéis e minicursos voltados para estudantes de graduação e pós-graduação, professores, pesquisadores e profissionais da comunidade de Sistemas de Informação de todo o Brasil. A quinta edição do evento acontecerá no Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ) no campus Nova Friburgo. 
@@ -43,80 +77,81 @@
 
       <h3>Datas Importantes</h3>
       <dl>
-        <dd>Submissão de artigos: 10/08/2018</dd>
+        <dd>Submissão de artigos: 18/08/2018</dd>
         <dd>Notificação aos autores: 03/09/2018</dd>
         <dd>Versão final: 17/09/2018</dd>
       </dl>
       <h3>Instruções para submissão</h3>
       <p>
-        Os artigos do ERSI-RJ 2018 poderão ser submetidos em português ou inglês, seguindo o modelo para publicação de artigos da SBC, nas modalidades artigo completo com 6 – 8 páginas e resumo expandido com 4 páginas.
+        Os artigos do ERSI-RJ 2018 poderão ser submetidos em português ou inglês, seguindo o modelo para publicação de artigos da SBC, 
+  nas modalidades artigo completo com 6 – 8 páginas e resumo expandido com 4 páginas.
+      </p>
+
+      <p>
+        Todos os artigos devem ser submetidos eletronicamente em formato PDF pelo sistema da SBC – JEMS. Os trabalhos aceitos na 
+  modalidade Artigos Completos, deverão ser apresentados em sessão oral, com tempo máximo de 15 minutos para cada trabalho. 
+  Os trabalhos aceitos na modalidade resumos expandidos, deverão ser apresentados na forma de pôster.
       </p>
       <p>
-        Todos os artigos devem ser submetidos eletronicamente em formato PDF pelo sistema da SBC – JEMS. Os trabalhos aceitos na modalidade Artigos Completos, deverão ser apresentados em sessão oral, com tempo máximo de 15 minutos para cada trabalho. Os trabalhos aceitos na modalidade resumos expandidos, deverão ser apresentados na forma de pôster.
+        LINK PARA A SUBMISSÃO DE ARTIGOS: <a href="https://submissoes.sbc.org.br/ersirj2018">https://submissoes.sbc.org.br/ersirj2018</a>
       </p>
-<!--
-      <p>
-        LINK PARA A SUBMISSÃO de ARTIGO COMPLETO: https://jems.sbc.org.br/Paper.cgi?c=2894&track=6628
-      </p>
-      <p>
-        PARA RESUMO EXPANDIDO: https://jems.sbc.org.br/home.cgi?c=2895
-      </p>
--->
+
       <h2>Tópicos de Interesse</h2>
-      <ul class="main-list-list">    
-          <li class="main-list-item"> Fundamentos de Sistemas de Informação (SI);</li>
-          <li class="main-list-item"> Teoria Geral de Sistemas</li>
-          <li class="main-list-item"> Verificação e Validação de SI;</li>
-          <li class="main-list-item"> Qualidade de SI;</li>
-          <li class="main-list-item"> Simulação de SI;</li>
-          <li class="main-list-item"> Planejamento Estratégico de Sistemas e TI;</li>
-          <li class="main-list-item"> Alinhamento Estratégico entre TI e Negócio;</li>
-          <li class="main-list-item"> Questões Organizacionais, Gerenciais e Estratégicas de SI;</li>
-          <li class="main-list-item"> Arquitetura Organizacional de TI;</li>
-          <li class="main-list-item"> Estratégia de SI e Modelos Inovadores de Negócios;</li>
-          <li class="main-list-item"> Administração e Negócios;</li>
-          <li class="main-list-item"> Governança de TI;</li>
-          <li class="main-list-item"> Gestão de SI;</li>
-          <li class="main-list-item"> Gerência de Projetos de TI;</li>
-          <li class="main-list-item"> Gerência de Riscos em TI;</li>
-          <li class="main-list-item"> Gestão de Processos de Negócio;</li>
-          <li class="main-list-item"> Arquitetura de Informações;</li>
-          <li class="main-list-item"> Gestão de Conhecimento e Aprendizagem Organizacional;</li>
-          <li class="main-list-item"> Negócios Eletrônicos (e-Business) e Comércio Eletrônico (e-Commerce) e Governo Eletrônico (e-Government);</li>
-          <li class="main-list-item"> Ecossistemas Estratégicos e Digitais</li>
-          <li class="main-list-item"> Gerência de Dados nas Organizações;</li>
-          <li class="main-list-item"> Data Warehousing e OLAP;</li>
-          <li class="main-list-item"> Integração de Aplicações Corporativas;</li>
-          <li class="main-list-item"> Modelagem Conceitual de SI;</li>
-          <li class="main-list-item"> Desenvolvimento Dirigido a Modelos (MDD);</li>
-          <li class="main-list-item"> Arquiteturas Orientadas a Serviços (SOA);</li>
-          <li class="main-list-item"> Infraestrutura de Tecnologia da Informação e Comunicação;</li>
-          <li class="main-list-item"> Empreendedorismo na Área de SI;</li>
-          <li class="main-list-item"> Inovação e Novas Tecnologias Aplicadas a SI das Organizações;</li>
-          <li class="main-list-item"> Aspectos Sociais e Humanos em SI;</li>
-          <li class="main-list-item"> Representação de Conhecimento e Raciocínio em SI;</li>
-          <li class="main-list-item"> Sistemas de Informação Inteligentes</li>
-          <li class="main-list-item"> Enterprise Information Systems, Enterprise Resource Planning;</li>
-          <li class="main-list-item"> Sistemas de Apoio à decisão;</li>
-          <li class="main-list-item"> Segurança em TI, Segurança da Informação;</li>
-          <li class="main-list-item"> Estudos de Caso de aplicação de SI em Diferentes Domínios/Áreas de Conhecimento.</li>
-          <li class="main-list-item"> Internet das Coisas</li>
+      <ul class="main-list">    
+          <li> Fundamentos de Sistemas de Informação (SI);</li>
+          <li> Teoria Geral de Sistemas</li>
+          <li> Verificação e Validação de SI;</li>
+          <li> Qualidade de SI;</li>
+          <li> Simulação de SI;</li>
+          <li> Planejamento Estratégico de Sistemas e TI;</li>
+          <li> Alinhamento Estratégico entre TI e Negócio;</li>
+          <li> Questões Organizacionais, Gerenciais e Estratégicas de SI;</li>
+          <li> Arquitetura Organizacional de TI;</li>
+          <li> Estratégia de SI e Modelos Inovadores de Negócios;</li>
+          <li> Administração e Negócios;</li>
+          <li> Governança de TI;</li>
+          <li> Gestão de SI;</li>
+          <li> Gerência de Projetos de TI;</li>
+          <li> Gerência de Riscos em TI;</li>
+          <li> Gestão de Processos de Negócio;</li>
+          <li> Arquitetura de Informações;</li>
+          <li> Gestão de Conhecimento e Aprendizagem Organizacional;</li>
+          <li> Negócios Eletrônicos (e-Business) e Comércio Eletrônico (e-Commerce) e Governo Eletrônico (e-Government);</li>
+          <li> Ecossistemas Estratégicos e Digitais</li>
+          <li> Gerência de Dados nas Organizações;</li>
+          <li> Data Warehousing e OLAP;</li>
+          <li> Integração de Aplicações Corporativas;</li>
+          <li> Modelagem Conceitual de SI;</li>
+          <li> Desenvolvimento Dirigido a Modelos (MDD);</li>
+          <li> Arquiteturas Orientadas a Serviços (SOA);</li>
+          <li> Infraestrutura de Tecnologia da Informação e Comunicação;</li>
+          <li> Empreendedorismo na Área de SI;</li>
+          <li> Inovação e Novas Tecnologias Aplicadas a SI das Organizações;</li>
+          <li> Aspectos Sociais e Humanos em SI;</li>
+          <li> Representação de Conhecimento e Raciocínio em SI;</li>
+          <li> Sistemas de Informação Inteligentes</li>
+          <li> Enterprise Information Systems, Enterprise Resource Planning;</li>
+          <li> Sistemas de Apoio à decisão;</li>
+          <li> Segurança em TI, Segurança da Informação;</li>
+          <li> Estudos de Caso de aplicação de SI em Diferentes Domínios/Áreas de Conhecimento.</li>
+          <li> Internet das Coisas</li>
         </ul>
     </main>
     <footer class="footer">
-      <div class="footer-ersi-facebook">
-        <h3>ERSI no Facebook:</h3>
-        <iframe class="footer-ersi-facebook-box" 
-          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FERSI2018%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"></iframe>
-      </div>
-      <div class="footer-ersi-suporters">
-        <h3>Apoio:</h3>
-        <a href="http://www.sbc.org.br/" target="_blank"><img src="./img/sbc.png" alt="Logo SBC"></a>
-      </div>
-      <div class="footer-ersi-organizaters">
-        <h3>Realização por:</h3>
-        <a href="#"><img src="./img/logo_cefet.png" class="logo_apoio" alt="apoio"></a>
-      </div>
+        <div class="footer-ersi-suporters">
+            <h3>Realização</h3>
+            <a href="http://www.sbc.org.br/" target="_blank"><img src="./img/sbc.png" alt="Logo SBC"></a>
+        </div>
+        <div class="footer-ersi-organizaters">
+            <h3>Organização</h3>
+            <a href="#"><img src="./img/logo_cefet.png" class="logo_apoio" alt="Organização"></a>
+        </div>
+        <div class="footer-ersi-facebook">
+            <h3>ERSI no Facebook:</h3>
+            <iframe 
+                class="footer-ersi-facebook-box" 
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FERSI2018%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"></iframe>
+        </div>
     </footer>
   </body>
 </html>

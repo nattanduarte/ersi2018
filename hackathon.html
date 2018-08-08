@@ -9,39 +9,79 @@
       gtag('js', new Date());
       gtag('config', 'UA-117933373-1');
     </script>
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("sidenav").style.width = "350px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("sidenav").style.width = "0";
+        }
+    </script>
     <meta charset="utf-8">
     <title>Hackathon CEFET-NF</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link rel="stylesheet" href="./css/hackathon.css">
+    <link rel="stylesheet" type="text/css" href="./css/menu.css"/>
   </head>
   <body>
     <nav class="menu">
-      <h1>HACKATH0N</h1>
-      <ul class="menu-list">
-        <li><a href="index.html"> Início </a></li>
-        <li><a href="chamada.html"> Chamada </a></li>
-        <li><a href="programacao.html"> Programação </a></li>
-        <li><a href="inscricoes.html"> Inscrições </a></li>
-        <li><a href="local.html"> Local</a></li>
-        <li><a href="palestras.html"> Palestras </a></li>
-        <li><a href="#">Hackathon</a></li>
-        <li><a href="mostraRobotica.html">Mostra de Robótica</a></li>
-      </ul>
+        <a href="http://www.sbc.org.br/" target="_blank">
+            <img src="./img/sbc.png" alt="Logo SBC" class="sbc_top">
+        </a>
+        <a href="index.html">
+            <img src="./img/logo_ersi_escuro.png" alt="Logo da ERSI 2018" class="ersi_logo">
+        </a>
+        <ul class="menu-list">
+            <li><a href="index.html"> Início </a></li>
+            <li><a href="chamada.html"> Chamadas </a></li>
+            <li><a href="programacao.html"> Programação </a></li>
+            <li><a href="inscricoes.html"> Inscrições </a></li>
+            <li><a href="local.html"> Local</a></li>
+            <li><a href="palestras.html"> Palestras </a></li>
+            <li><a href="hackathon.html">Hackathon</a></li>
+            <li><a href="mostraRobotica.html">Mostra de Robótica</a></li>
+            <li><a href="minicursos.html">Minicursos</a></li>
+        </ul>
+        <div id="menuLat" onclick="openNav()">
+            <img src="./img/menu-resp.png"/>
+        </div>
+    </nav>
+
+    <nav id="sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html"> Início </a>
+        <a href="chamada.html"> Chamadas</a>
+        <a href="programacao.html"> Programação </a>
+        <a href="inscricoes.html"> Inscrições </a>
+        <a href="local.html"> Local</a>
+        <a href="palestras.html"> Palestras </a>
+        <a href="hackathon.html">Hackathon</a>
+        <a href="mostraRobotica.html">Mostra de Robótica</a>
+        <a href="minicursos.html">Minicursos</a>
     </nav>
     <main class="main">
         <p>hackathon@CefetNF:~$ man hackhaton</p>
-        <p id="p2"> O hackathon é voltado para estudantes e profissionais de TI que estejam inscritos no ERSI. O evento é realizado em parceria com a Prefeitura de Nova Friburgo e acontecerá no início da escola, tendo duração de dois dias (24 e 25 de outubro).
-        <br/><br/>
+        <p> O hackathon é voltado para estudantes e profissionais de TI que estejam inscritos no ERSI. O evento é realizado em parceria com a Prefeitura de Nova Friburgo e acontecerá no início da escola, tendo duração de dois dias (24 e 25 de outubro).
+        </p>
+        <p>
          O formato do hackathon propõe aos participantes a formação de grupos de 4 ou 5 pessoas que irão desenvolver alguma ferramenta computacional que viabilize alguma melhoria para a cidade. Os projetos serão avaliados pela comissão julgadora do hackathon, composta por membros da academia e do mercado.
-         <br/><br/>
+        </p>
+        <p>
          A propriedade intelectual do que for criado durante o evento é dos autores do projeto.
-        <br/><br/>
+        </p>
+        <p>
         Ao longo do hackathon, mentores qualificados estarão à disposição dos participantes para tirar dúvidas relacionados ao tema, de desenvolvimento e produto. Os participantes deverão utilizar os seus computadores pessoais. Entretanto, durante o evento, cada equipe terá à sua disposição o seguinte:
-        <br/><br/>
-        - bancada com tomadas;<br/>
-        - quadro branco;<br/>
-        - data show.<br/>
-        Os inscritos no hackathon tanto podem vir com seus grupos formados como podem formá-los no início do evento...|</p>
+        </p>
+        <ul>
+            <li>bancada com tomadas;</li>
+            <li>quadro branco;</li>
+            <li>data show.</li>
+        </ul>
+        <p>
+            Os inscritos no hackathon tanto podem vir com seus grupos formados como podem formá-los no início do evento...|</p>
     </main>
   </body>
 </html>

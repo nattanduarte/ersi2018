@@ -9,74 +9,187 @@
       gtag('js', new Date());
       gtag('config', 'UA-117933373-1');
     </script>
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("sidenav").style.width = "350px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("sidenav").style.width = "0";
+        }
+    </script>
     <meta charset="utf-8">
     <title>Mostra Robótica</title>
     <link rel="stylesheet" href="./css/mostraRobotica.css"/>
     <link rel="stylesheet" href="./css/menu.css"/>
+    <link rel="stylesheet" href="./css/fonts.css"/>
     <link rel="stylesheet" href="./css/footer.css"/>
   </head>
-  <body>
+<body>
     <nav class="menu">
-        <a href="index.html"><img src="./img/logo_ersi_escuro.png" alt="Logo da ERSI 2018"></a>
+        <a href="http://www.sbc.org.br/" target="_blank">
+            <img src="./img/sbc.png" alt="Logo SBC" class="sbc_top">
+        </a>
+        <a href="index.html">
+            <img src="./img/logo_ersi_escuro.png" alt="Logo da ERSI 2018" class="ersi_logo">
+        </a>
         <ul class="menu-list">
-          <li><a href="index.html"> Início </a></li>
-          <li><a href="chamada.html"> Chamada </a></li>
-          <li><a href="programacao.html"> Programação </a></li>
-          <li><a href="inscricoes.html"> Inscrições </a></li>
-          <li><a href="local.html"> Local</a></li>
-          <li><a href="palestras.html"> Palestras </a></li>
-          <li><a href="hackathon.html">Hackathon</a></li>
-          <li><a href="#">Mostra de Robótica</a></li>
+            <li><a href="index.html"> Início </a></li>
+            <li><a href="chamada.html"> Chamadas </a></li>
+            <li><a href="programacao.html"> Programação </a></li>
+            <li><a href="inscricoes.html"> Inscrições </a></li>
+            <li><a href="local.html"> Local</a></li>
+            <li><a href="palestras.html"> Palestras </a></li>
+            <li><a href="hackathon.html">Hackathon</a></li>
+            <li><a href="mostraRobotica.html">Mostra de Robótica</a></li>
+            <li><a href="minicursos.html">Minicursos</a></li>
         </ul>
+        <div id="menuLat" onclick="openNav()">
+            <img src="./img/menu-resp.png"/>
+        </div>
     </nav>
-    <main class="main">
-      <div class="main-presentation">
-        <h1>Apresentação</h1>
-        <p>Neste ano, a V Escola Regional de Sistemas de Informação (ERSI - 2018) terá, em sua programação, a primeira Mostra Regional de Automação, Controle e Robótica. Esse evento será uma mostra científica cujo objetivo é estimular e divulgar trabalhos científicos e, inovações tecnológicas e metodológicas que venham contribuir significativamente para o desenvolvimento da educação, indústria, agropecuária e cidades, sendo os três últimos de maneira sustentável. Portanto, o evento destina-se a estudantes do ensino médio e técnico de instituições de ensino públicas e privadas, bem como estudantes de cursos superiores, pós-graduações e pesquisadores.</p>
-      </div>
-      <ul class="main-list-list">
-        <h2>Critérios de avaliação</h2>
-        <p class="main-list-item-p"> TRABALHOS SUBMETIDOS EM FORMATO MULTIMÍDIA:<br/>
-          Os trabalhos submetidos em formato multimídia compreendem: um texto submetido pelo autor no
-          próprio sistema acompanhado de material multimídia (imagens ou vídeos) em qualquer área do
-          conhecimento compatível com a ERSI. O texto deve conter:</p>
-        <li class="main-list-item"> - Resumo: espera-se uma boa descrição do trabalho, suficiente para delimitar o escopo do mesmo e
-          seus principais diferenciais;</li>
-        <li class="main-list-item"> Descrição geral do trabalho: espera-se uma descrição um pouco mais abrangente apresentando
-          pelo menos os objetivos do trabalho, uma visão geral da metodologia apresentada e os principais
-          resultados obtidos.<br/>
-          Embora esteja-se tratando de um formato sucinto, espera-se que os textos apresentem um
-          descritivo suficiente para que a essência dos trabalhos possa ser compreendida e para que os
-          mesmos possam se tornar boas fontes de referência para consultas feitas por outros professores ou
-          alunos no futuro.</li>
-        <li class="main-list-item"> Os arquivos multimídia são parte integrante do trabalho e devem auxiliar na visão geral dele.</li>
-        <p class="main-list-item-p">TRABALHOS SUBMETIDOS EM FORMATO DE ARTIGO CIENTÍFICO:<br/>
-          Os trabalhos submetidos em formato de artigo científico compreendem: um arquivo científico em
-          formato PDF e, opcionalmente, arquivos multimídia enviados pelos autores (imagens e vídeos).
-          Os trabalhos deverão apresentar uma descrição mais completa e fundamentada dos trabalhos
-          desenvolvidos em qualquer área do conhecimento compatível com a ERSI:</p>
-        <li class="main-list-item"> - Espera-se que os artigos tenham seções equivalentes a: resumo, introdução, metodologia,
-          resultados, conclusões e bibliografia;</li>
-        <li class="main-list-item"> Espera-se que os textos apresentem um descritivo suficiente para que os trabalhos possam se
-          tornar boas fontes de referência para consultas feitas por outros professores ou alunos no futuro.
-          Os arquivos multimídia (se existirem) são parte integrante do trabalho e devem auxiliar na visão
-          geral dele.</li>
 
-      </ul>
+    <nav id="sidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html"> Início </a>
+        <a href="chamada.html"> Chamadas</a>
+        <a href="programacao.html"> Programação </a>
+        <a href="inscricoes.html"> Inscrições </a>
+        <a href="local.html"> Local</a>
+        <a href="palestras.html"> Palestras </a>
+        <a href="hackathon.html">Hackathon</a>
+        <a href="mostraRobotica.html">Mostra de Robótica</a>
+        <a href="minicursos.html">Minicursos</a>
+    </nav>
+    <main>
+        <h1 class="mobile">Mostra de Robótica</h1>
+        <div class="main-presentation">
+            <h1>1. Apresentação</h1>
+            <p>
+                Neste ano, a V Escola Regional de Sistemas de Informação (ERSI-RJ 2018) terá, em sua programação, a primeira Mostra Regional de Automação, Controle e Robótica. Esse evento será uma mostra científica cujo objetivo é estimular e divulgar trabalhos científicos e, inovações tecnológicas e metodológicas que venham contribuir significativamente para o desenvolvimento da educação, indústria, agropecuária, meio ambiente e cidades, sendo os três últimos de maneira sustentável. Portanto, o evento destina-se a estudantes do ensino médio e técnico de instituições de ensino públicas e privadas, bem como estudantes de cursos superiores, pós-graduações e pesquisadores. 
+            </p>
+            <p>
+                A primeira edição da Mostra Regional de Automação, Controle e Robótica será realizada no dias 25 e 26 de outubro de 2018 no campus Nova Friburgo do CEFET/RJ. A coordenação do evento está sob a responsabilidade dos professores Luis Cláudio Batista da Silva (CEFET/RJ) e Fabrício Barros Gonçalves (IFF Campus Bom Jesus do Itabapoana). Esse evento será composto de duas sessões técnicas, sendo uma para apresentação de trabalhos a nível de ensino médio e/ou técnico e outra para apresentação de trabalhos de nível superior (graduação e pós-graduação). 
+            </p>
+            <h1>2. Chamada para Trabalhos</h1>
+            <p>
+                Os autores são convidados a submeter artigos curtos descrevendo trabalhos científicos (teóricos e/ou aplicações específicas) relacionados principalmente às seguintes áreas: educação, indústria, agropecuária, meio ambiente e cidades. Cada artigo será avaliado por pelo menos três membros do comitê do programa.
+            </p>
+            <p>
+                A lista não exaustiva de tópicos de interesse inclui:
+            </p>
+            <ul class="main-list">
+                <li>Robótica educacional;</li>
+                <li>Ambientes inteligentes;</li>
+                <li>Aplicações de sistemas inteligentes;</li>
+                <li>Controle inteligente;</li>
+                <li>Controle de robôs;</li>
+                <li>Localização, mapeamento, navegação e planejamento de rotas;</li>
+                <li>Planejamento, raciocínio e tomada de decisão inteligente;</li>
+                <li>Plataformas robóticas;</li>
+                <li>Processamento de imagens inteligente;</li>
+                <li>Reconhecimento de padrões em automação, controle ou robótica;</li>
+                <li>Sistemas embarcados;</li>
+                <li>Sistemas adaptativos e de aprendizagem em automação, controle ou robótica;</li>
+                <li>Sistemas de controle em rede;</li>
+                <li>Sistemas especialistas em automação, controle ou robótica;</li>
+                <li>Sistemas multiagentes inteligentes.</li>
+                <li>Sistemas multi-robôs;</li>
+                <li>Sistemas nebulosos em automação, controle ou robótica;</li>
+                <li>Visão computacional em automação, controle ou robótica;</li>
+                <li>Veículos autônomos aéreos e terrestres.</li>
+            </ul>
+            <h1>3. Datas Importantes</h1>
+            <ul class="main-list">
+                <li>Submissão de artigos: 18/08/2018;</li>
+                <li>Comunicação de resultados: 03/09/2018</li>
+                <li>Envio da versão final: 17/09/2018</li>
+            </ul>
+            <h1>4. Instruções aos Autores</h1>
+            <p>
+                A submissão de artigos será exclusivamente eletrônica, por meio do sistema SBC - JEMS. Os artigos devem ser escritos em português, somente no formato PDF. Cada artigo está limitado a 4 páginas, incluindo resumo e abstract, figuras, diagramas, referências e anexos. Os trabalhos devem ser formatados seguindo o modelo de artigos da SBC, disponível em <a href="http://www.sbc.org.br/documentos-da-sbc/category/169-templates-para-artigos-e-capitulos-de-livros">Templates SBC</a>.
+            </p>
+            <p>
+                LINK PARA A SUBMISSÃO DE ARTIGOS: <a href="https://submissoes.sbc.org.br/ersirj2018">https://submissoes.sbc.org.br/ersirj2018</a>
+            </p>
+            <p>
+                Os trabalhos aceitos deverão ser apresentados na forma de protótipos, se houver, juntamente com um pôster. Para apresentação, os autores terão uma mesa, um biombo e uma tomada.
+            </p>
+        </div>
     </main>
-    <footer class="footer">
-      <div class="footer-ersi-facebook">
-        <h3>ERSI no Facebook:</h3>
-        <iframe class="footer-ersi-facebook-box" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FERSIRJ%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"></iframe>
-      </div>
-      <div class="footer-ersi-suporters">
-        <h3>Apoio:</h3>
-        <a href="http://www.sbc.org.br/" target="_blank"><img src="./img/sbc.png" alt="Logo SBC"></a>
-      </div>
-      <div class="footer-ersi-organizaters">
-        <h3>Realização por:</h3>
-        <a href="#"><img src="./img/logo_cefet.png" class="logo_apoio" alt="apoio"></a>
-      </div>
+    <footer     >
+
+        <div class="footer-ersi-suporters">
+            <h3>Realização</h3>
+            <a href="http://www.sbc.org.br/" target="_blank"><img src="./img/sbc.png" alt="Logo SBC"></a>
+        </div>
+        <div class="footer-ersi-organizaters">
+            <h3>Organização</h3>
+            <a href="#"><img src="./img/logo_cefet.png" class="logo_apoio" alt="Organização"></a>
+        </div>
+        <div class="footer-ersi-facebook">
+            <h3>ERSI no Facebook:</h3>
+            <iframe 
+                class="footer-ersi-facebook-box" 
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FERSI2018%2F&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId"></iframe>
+        </div>
+        <br clear="both" />
+        <div class="patrocinio">
+            <div class="ouro">
+                <h3>Patrocínio Ouro</h3>
+                <div class="patrocinador">
+                    <a href="http://www.wiiglo.com/">
+                        <img class="ouro" src="./img/apoio/fourSafe.png"/>
+                    </a>
+                </div>
+            </div>
+            <!--
+            <div class="patrocinio prata">
+                <h3>Patrocínio Prata</h3>
+                <div class="patrocinador prata">
+                    <a href="#"><img src="#"/></a>
+                </div>
+            </div>
+            <div class="patrocinio bronze">
+                <h3>Patrocínio Bronze</h3>
+                <div class="patrocinador bronze">
+                    <a href="#"><img src="#"/></a>
+                </div>
+            </div>
+        -->
+        </div>
+        <div class="apoio">
+            <div class="apoiador-institucional">
+                <h3>Apoio Institucional</h3>
+                <div class="apoiador">
+                    <a href="http://www.pmnf.rj.gov.br/"><img class="pmnf" src="./img/apoio/PMNF_logo.jpg"/></a>
+                </div>
+                <!--
+                <div class="apoiador institucional">
+                    <a href="http://www.sebrae.com.br/sites/PortalSebrae/ufs/rj?codUf=20"><img class="sebrae" src="./img/apoio/sebrae.jpg"/></a>
+                </div>
+            -->
+                <div class="apoiador institucional">
+                    <a href="http://portal1.iff.edu.br/nossos-campi/bom-jesus-do-itabapoana"><img class="iff" src="./img/apoio/iff.jpg"/></a>
+                </div>
+                <div class="apoiador institucional">
+                    <a href="http://ufrj.br"><img class="ufrj" src="./img/apoio/ufrj.jpg"/></a>
+                </div>
+                <div class="apoiador institucional">
+                    <a href="http://portal.ufrrj.br"><img class="ufrrj" src="./img/apoio/ufrrj.jpg"/></a>
+                </div>
+            </div>
+            <div class="apoiador-empresa">
+                <h3>Empresa Parceira</h3>
+                <div class="apoiador">
+                    <a href="https://www.facebook.com/knuppconsultoria/">
+                        <img src="./img/apoio/knupp.png"/>
+                    </a>
+                </div>
+            </div>
+        </div>
     </footer>
-        </body>
+</body>
 </html>
