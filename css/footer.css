@@ -3,9 +3,16 @@
   padding: 0;
 }
 @media screen and (min-device-width: 320px) and (max-device-width: 767px){
-    footer{
-        background-color: #fff;
+    footer, .apoio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+        color: #000;
         text-align: center;
+      margin-bottom: 40px;
     }
     footer h3{
         margin: 25px 0 5px 0;
@@ -31,18 +38,51 @@
         width: 400px;
     }
 
+.organizacao, .institucional, .empresa, .ouro {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .apoio h3 {
+    color: #666;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  .apoiador {
+    margin: 5px 20px;
+  }
+
+  .ouro img {
+    height: 170px;
+  }
+  
+  .institucional, .empresa, .ouro {
+    padding: 10px;
+    margin: 10px 25px;
+  }
+  .institucional img, .empresa img {
+    height: 150px;
+  }
+
 }
 @media screen and (min-device-width: 768px){
-  .footer, footer{
-    //display: flex;
+  .footer, footer, .apoio{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #000;
-
   }
   .footer-ersi-facebook, .footer-ersi-suporters, .footer-ersi-organizaters{
     margin: 20px;
-    float: left;
   }
   .footer-ersi-facebook-box{
     width: 340px;
@@ -61,34 +101,38 @@
     width: 400px;
   }
 
-  .apoio, .patrocinio {
-    margin: 0 20px;
+  .organizacao, .institucional, .empresa, .ouro {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
   }
-
-  .patrocinio h3, .apoio h3 {
+  
+  .apoio h3 {
     color: #666;
     font-weight: normal;
-    text-transform: uppercase;
     font-family: Arial, sans-serif;
+    text-align: center;
   }
 
-  .patrocinador, .apoiador {
-    margin: 0 10px;
+  .apoiador {
+    margin: 5px 20px;
+    width: 350px;
+    text-align: center;
   }
 
-  .apoiador-institucional, .apoiador-empresa {
-    float: left;
-  }
-
-  .apoiador{
-    float: left;
-  }
-  
-  .apoiador-institucional img {
+  .ouro img {
     height: 100px;
   }
   
-  .apoiador-empresa img{
+  .institucional, .empresa, .ouro {
+    padding: 10px;
+    margin: 10px 25px;
+  }
+  .institucional img, .empresa img {
     height: 100px;
   }
+  
 }
